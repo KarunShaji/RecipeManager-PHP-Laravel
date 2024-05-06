@@ -14,9 +14,9 @@ This project is a backend application built with PHP Laravel for managing recipe
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/KarunShaji/RecipeManager-PHP-Laravel
-   ```
+```bash
+git clone https://github.com/KarunShaji/RecipeManager-PHP-Laravel
+```
 2. **Navigate to the project directory:**
 
 ```bash
@@ -24,7 +24,7 @@ cd RecipeManager-PHP-Laravel
 ```
 
 3. **Install PHP dependencies:**
- ```bash
+```bash
 composer install
 ```
 4. **Configure your database settings in the .env file:**
@@ -37,7 +37,7 @@ DB_USERNAME=your_database_username
 DB_PASSWORD=your_database_password
 ```
 5. **Run the database migrations:**
- ```bash
+```bash
 php artisan migrate
 ```
 6. **Serve the application:**
