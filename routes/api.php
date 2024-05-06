@@ -21,7 +21,7 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::post('signup',[App\Http\Controllers\AuthController::class,'signup']);
 Route::post('login',[App\Http\Controllers\AuthController::class,'login']);
 
-Route::middleware('auth:sanctum')->group(function(){ 
+Route::middleware('auth:sanctum')->group(function(){
 
     Route::post('create',[App\Http\Controllers\ApiController::class,'createProduct']);
     Route::get('products',[App\Http\Controllers\ApiController::class,'getProducts']);

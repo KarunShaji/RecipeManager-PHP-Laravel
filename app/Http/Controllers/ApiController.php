@@ -11,7 +11,7 @@ class ApiController extends Controller
     public function createProduct(Request $request){
     
         $request->validate([
-            'title' => 'required|max:255|string',
+            'title' => 'required|max:256|string',
             'description'=>'required|max:255|string',
             'image_url' => 'required|max:255|string',
         ]);
